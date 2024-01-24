@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/ajith/Desktop/SeleniumAutomaion/src/test/java/Day14_Dec20/testNG_Groups.java">
+        <groups>
+            <run>
+                <include name="smoke" />
+            </run>
+        </groups>
+        <classes>
+        <class name="Day14_Dec20.groups_exception_excel">
+            <methods>
+            </methods></class>
+        </classes>
+    </test>
+</suite>

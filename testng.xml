@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test  name="Test run">
+
+        <groups>
+            <run>
+                <include name="Smoke" />
+            </run>
+        </groups>
+    <classes>
+        <class name="test.testng"><methods>
+<!--            <include name="timeout"/>-->
+<!--            <include name="group1"/>-->
+<!--            <include name="group2"/>-->
+<!--            <include name="group3"/>-->
+<!--            <include name="group4"/>-->
+        </methods>
+        </class>
+    </classes>
+</test>
+</suite>

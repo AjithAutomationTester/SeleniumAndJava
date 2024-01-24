@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" preserve-order="true">
+    <test verbose="5" preserve-order="false" name="/Users/ajith/Desktop/SeleniumAutomaion/src/test/java/Day14_Dec20/testNG_Groups.java">
+        <parameter name="name" value="ajith"></parameter>
+        <parameter name="degree" value="BE"></parameter>
+        <classes>
+        <class name="Day14_Dec20.groups_exception_excel">
+            <methods>
+            <include name="params"/>
+            </methods>
+        </class>
+    </classes>
+    </test>
+</suite>
